@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Evaluation</title>
+    <link rel="stylesheet" type="text/css" href="mystyles.css" />
+</head>
+
+<body>
+<div id="container">
+    <header>
+        <a href="http:ccse.kennesaw.edu/it">
+            <img src="KSU_logo.png">
+        </a>
+        <h1>Center for Applied Research in Information Technology</h1>
+        <br>
+    </header>
+    <div>
+        <br>
+        <strong>Menu: </strong>
+        <a class="menu-item" href="index.html">Home</a>
+        <a class="menu-item" href="Faculty.html">About Us</a>
+        <a class="menu-item" href="Resources.html">Events</a>
+        <a class="menu-item" href="Evaluation.html">Position Eligibility</a>
+        <br>
+        <br>
+    </div>
+
+<head>
+	<title>HTML Form Value Retrieval</title>
+</head>
+<body>
+<h1>Application Form</h1>
+<p>Please fill out the application below and "apply" for review. Thank You! </p>
+
+<form name="profile" method="post" action="form-action.php" class="form-background">
+  <table width="500" border="0">
+    <tr> 
+      <td width="150" bgcolor="#ffc0cb"><strong>First Name</strong></td>
+      <td><input type="text" name="firstname" size="20" maxlength="20" required /></td>
+    </tr>
+    <tr> 
+        <td width="150" bgcolor="#ffc0cb"><strong>Last Name</strong></td>
+      <td><input type="text" name="lastname" size="20" maxlength="20" required /></td>
+    </tr>
+    <tr> 
+        <td width="150" bgcolor="#ffc0cb"><strong>Address</strong></td>
+      <td><input type="text" name="address" size="20" maxlength="20" /></td>
+    </tr>
+    <tr> 
+        <td width="150" bgcolor="#ffc0cb"><strong>State</strong></td>
+      <td><input type="text" name="state" size="20" maxlength="20" /></td>
+    </tr>
+    <tr> 
+        <td width="150" bgcolor="#ffc0cb"><strong>Zipcode</strong></td>
+      <td><input type="text" name="zipcode" size="20" maxlength="20" /></td>
+    </tr>
+    <tr> 
+      <td width="150" bgcolor="#ffc0cb"><strong>Email Address</strong></td>
+      <td><input type="email" name="email" size="20" maxlength="50" required /></td>
+    </tr>
+    <tr> 
+        <td width="150" bgcolor="#ffc0cb"><strong>Phone Number</strong> </td>
+        <td>
+            <input type="tel" name="phone" size="20" maxlength="15" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+            <medium>(xxx-xxx-xxxx)</medium>
+        </td>
+    </tr>
+    
+      <td bgcolor="#ffc0cb"><strong>Student Status</strong></td>
+      <td><input type="radio" name="education" value="Undergraduate" required />
+        Undergraduate 
+        <input type="radio" name="education" value="Graduate" required />
+        Graduate 
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffc0cb"><strong>Weekly Availability</strong></td>
+        <td>
+          <span><input type="checkbox" name="Availability" value="Monday" /> Monday</span>
+          <span><input type="checkbox" name="Availability" value="Tuesday" /> Tuesday</span>
+          <span><input type="checkbox" name="Availability" value="Wednesday" /> Wednesday</span>
+          <span><input type="checkbox" name="Availability" value="Thursday" /> Thursday</span>
+          <span><input type="checkbox" name="Availability" value="Friday" /> Friday</span>
+        </td>
+      </tr>
+    <tr> 
+      <td bgcolor="#ffc0cb"><strong>Area of concentration</strong></td>
+      <td><select name="concentration">
+        <option value="Select one option">Select one option</option>
+          <option value="Data Analytics and Intelligence" >Data Analytics and Intelligence</option>
+          <option value="IT Security">IT Security</option>
+          <option value="IT Enterprise Management">IT Enterprise Manangement</option>
+          <option value="Health Information Technology">Health Information Technology</option>
+        </select></td>
+    </tr>
+  </table>
+  <p>
+    <input type="submit" value="Apply" style="font-size:30px; margin-bottom: 0;" />
+  </p>
+  </form>
+  <br>
+
+  <footer>
+    <br>
+    <p><strong>Note: </strong>This is a class project for IT 5443: Web Development Spring 2024. For more information, visit our class website at <a href="http://it5443.azurewebsites.net">http://it5443.azurewebsites.net</a>.</p>
+    <br>
+
+</footer>
+
+</body>
+</html>
